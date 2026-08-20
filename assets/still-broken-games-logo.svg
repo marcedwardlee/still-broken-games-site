@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 540" width="1560" height="540" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7C266"/><stop offset="0.5" stop-color="#D0A544"/><stop offset="1" stop-color="#9C7526"/></linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFE8D5"/><stop offset="1" stop-color="#CFC5AC"/></linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0A24A"/><stop offset="1" stop-color="#8A2E22"/></linearGradient>
+  </defs>
+  <g>
+    <path d="M150,132 Q150,108 174,108 L366,108 Q390,108 390,132 L390,300 Q390,392 270,462 Q150,392 150,300 Z" fill="#221B13" stroke="url(#gold)" stroke-width="11"/>
+    <path d="M168,140 Q168,124 184,124 L356,124 Q372,124 372,140 L372,298 Q372,378 270,440 Q168,378 168,298 Z" fill="none" stroke="#7C5E2A" stroke-width="3" opacity="0.8"/>
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M246,206 C206,178 166,196 176,242 C182,272 206,292 230,280" fill="none" stroke="url(#gold)" stroke-width="22"/>
+      <path d="M294,206 C334,178 374,196 364,242 C358,272 334,292 310,280" fill="none" stroke="url(#gold)" stroke-width="22"/>
+      <path d="M244,212 L296,212 L308,252 L288,306 Q270,322 252,306 L232,252 Z" fill="url(#gold)"/>
+      <path d="M232,238 L212,232 L230,258 Z" fill="url(#gold)"/>
+      <path d="M308,238 L328,232 L310,258 Z" fill="url(#gold)"/>
+      <path d="M244,250 L262,244" stroke="#F1D98A" stroke-width="7"/>
+      <path d="M296,250 L278,244" stroke="#F1D98A" stroke-width="7"/>
+      <path d="M250,258 L262,255 L261,266 L250,268 Z" fill="#1C1712"/>
+      <path d="M290,258 L278,255 L279,266 L290,268 Z" fill="#1C1712"/>
+      <rect x="260" y="292" width="20" height="12" rx="3" fill="#8B6A2C"/>
+    </g>
+    <path d="M312,116 L286,196 L318,250 L288,330 L306,430" fill="none" stroke="#0E0B08" stroke-width="8"/>
+    <path d="M312,116 L286,196 L318,250 L288,330 L306,430" fill="none" stroke="url(#ember)" stroke-width="2.5" opacity="0.9"/>
+  </g>
+  <g font-family="'Arial Black','Franklin Gothic Heavy','Georgia',sans-serif" font-weight="900">
+    <text x="470" y="258" font-size="116" letter-spacing="2"><tspan fill="url(#stone)">STILL </tspan><tspan fill="url(#gold)">BROKEN</tspan></text>
+    <rect x="474" y="288" width="470" height="6" rx="3" fill="url(#gold)"/>
+    <rect x="474" y="288" width="470" height="6" rx="3" fill="#0E0B08" opacity="0.15"/>
+    <text x="476" y="372" font-size="70" letter-spacing="34" fill="url(#stone)">GAMES</text>
+  </g>
+</svg>
