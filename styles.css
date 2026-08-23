@@ -423,6 +423,63 @@ main { max-width: var(--wrap); margin: auto; padding: 0 28px; }
   line-height: 1.5;
 }
 
+/* evidence figures: a claim on the page, and the game saying it */
+
+.bend-proof { grid-column: 1 / -1; margin: 44px 0 0; }
+.bend-proof img,
+.bond-proof img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.bend-proof a, .bond-proof a { display: block; line-height: 0; }
+.bend-proof a:hover img, .bond-proof a:hover img { filter: brightness(1.06); }
+.bend-proof a:focus-visible, .bond-proof a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.bend-proof figcaption,
+.bond-proof figcaption {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.5;
+  max-width: 70ch;
+}
+.bend-proof figcaption b, .bond-proof figcaption b { color: var(--paper); }
+
+.bond-proof { grid-column: 1 / -1; margin: 46px 0 0; }
+
+.studio-proof {
+  grid-column: 1 / -1;
+  margin: 54px 0 0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 44px;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(217, 169, 58, .05), transparent);
+  padding: 34px;
+}
+.studio-proof figure { margin: 0; }
+.studio-proof img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+}
+.studio-proof a { display: block; line-height: 0; }
+.studio-proof a:hover img { filter: brightness(1.06); }
+.studio-proof a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.studio-proof h3 {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  margin: 0 0 14px;
+  letter-spacing: -.02em;
+}
+.studio-proof p { color: var(--muted); margin: 0 0 12px; max-width: 62ch; }
+.studio-proof p b { color: var(--paper); }
+.studio-proof-note { font-size: .86rem; margin-bottom: 0 !important; }
+
 /* ----------------------------------------------------------------- world */
 
 .world { padding: 104px 0 96px; }
@@ -725,6 +782,9 @@ footer p { margin: 5px 0; }
   .bond-trio { max-width: 700px; }
   .bend { grid-template-columns: 1fr; gap: 44px; padding: 68px 0; }
   .bend-map { max-width: 520px; }
+  .bend-proof, .bond-proof { margin-top: 8px; }
+  .studio-proof { grid-template-columns: 1fr; gap: 28px; padding: 26px; }
+  .studio-proof figure { max-width: 300px; }
   .play { grid-template-columns: 1fr; gap: 40px; padding: 66px 0; }
   .play-art { max-width: 680px; margin-top: 0; }
   .play-art img { aspect-ratio: 3 / 2; object-position: 50% 50%; }
